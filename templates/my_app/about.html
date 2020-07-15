@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} 
+About Me 
+{% endblock %}
+
+{% block body %} 
+
+<div id="middleContainer">
+    <div id="profile">
+        <h1>Meet Alex.</h1>
+        <img class="me" src="{% static 'my_app/img/training-5.png' %}">
+        <h2>hello.</h2>
+        <p class="intro">
+            My name is Fidel Alexander, a computer science graduate and a tireless web designer/developer based in Lagos, Nigeria. My passion for web designing is second to none.
+        </p>
+    </div>
+    <hr>
+    <div id="skills.">
+        <h2>my philosophy.</h2>
+        <p class="intro">
+            If it's worth doing at all, then it's worth doing well!
+        </p>
+    </div>
+    <hr>
+    <div id="skills.">
+        <h2>my skills.</h2>
+        <div class="skillRow">
+            <img class="picture4" src="{% static 'my_app/img/image4.png' %}" alt="">
+            <h3>Front End Development</h3>
+            <p>
+                Advance knowledge of HTML, CSS, DOM, Javascript and DOM Manipulation (jquery); Version Control (GIT), Functional Programming, Browser Developer Tools, Responsive Web Designing, Command Line and Code Testing/Debugging.
+            </p>		
+        </div>
+        <div class="skillRow">
+            <img class="picture5" src="{% static 'my_app/img/image4.png' %}" alt="">
+            <h3>Back End Development</h3>
+            <p>
+                Good knowledge of Python Programming Language, Javascript, Databases and SQL, HTML, GIT.
+            </p>
+        </div>
+        <div class="skillRow">
+            <img class="picture4" src="{% static 'my_app/img/image4.png' %}" alt="">
+            <h3>Computer Programming</h3>
+            <p>
+                Knowledge of Functional Programming, Procedural Programming, (C), Object Oriented Programming, (Java), Javascript, and hybrid languages, (Python).
+            </p>		
+        </div>
+    </div>
+    
+{% endblock %}

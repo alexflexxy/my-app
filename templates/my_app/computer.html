@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} 
+Computer Programming
+{% endblock %}
+
+{% block body %} 
+
+<div id="middleContainer">
+	<h1>Computer Programming.</h1>
+	<img src="{% static 'my_app/img/training-4.png' %} " alt="training4">
+	<div id="skills.">
+		<h1>what you'll learn...</h1>
+		<div class="skillRow">
+            <img class="picture4" src="{% static 'my_app/img/image4.png' %}" alt="">
+            <h3>Computer Programming</h3>
+            <p>
+                Functional Programming (Python), Procedural Programming (C), Object Oriented Programming (Java), Javascript, and lots more.
+            </p>		
+        </div>
+	</div>
+</div>
+    
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} 
+Services
+{% endblock %}
+
+{% block body %} 
+
+	<div id="middleContainer">
+		<div id="skills.">
+			<h1>My Services.</h1>
+			<div class="skillRow">
+				<img class="picture4" src="{% static 'my_app/img/frontend.png' %}" alt="">
+				<h3>Front End Web Design and Development</h3>
+				<p>
+					Using HTML, CSS, DOM, Javascript, Version Control (GIT), Browser Developer Tools, Responsive Web Designing (Bootstrap),  and Command Line.
+				</p>		
+			</div>
+			<div class="skillRow">
+				<img class="picture5" src="{% static 'my_app/img/backend.png' %}" alt="">
+				<h3>Back End Web Development</h3>
+				<p>
+					With Python Programming Language, Django, Javascript, Databases and SQL.
+				</p>
+			</div>
+			<div class="skillRow">
+				<img class="picture4" src="{% static 'my_app/img/android.jpg' %}" alt="">
+				<h3>Mobile App Development</h3>
+				<p>
+					Good knowledge of XML, HTML, CSS, SQLite, Java, Version Control (GIT), and Android Studio.
+				</p>		
+			</div>
+			<div class="skillRow">
+				<img class="picture5" src="{% static 'my_app/img/training-1.png' %}" alt="">
+				<h3>Trainings</h3>
+				<p>
+					Extensive and practicals-oriented trainings in Web Development, Mobile App Development, and Computer Programming (Python, Javascript, Java).
+				</p>
+			</div>
+		</div>
+		<hr>
+	</div>
+
+{% endblock %}

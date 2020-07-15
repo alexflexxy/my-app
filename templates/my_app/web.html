@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} 
+Web Dev
+{% endblock %}
+
+{% block body %} 
+
+	<div id="middleContainer">
+		<h1>Web Development.</h1>
+		<img src="{% static 'my_app/img/training-1.png' %} " alt="training1">
+		<div id="skills.">
+			<h1>what you'll learn...</h1>
+			<div class="skillRow">
+				<img class="picture4" src="{% static 'my_app/img/frontend.png' %}" alt="">
+				<h3>Front End Web Development</h3>
+				<p>
+					HTML, CSS, Javascript, GIT, Responsive Web Designing (Bootstrap), and Command Line.
+				</p>		
+			</div>
+			<div class="skillRow">
+				<img class="picture5" src="{% static 'my_app/img/backend.png' %}" alt="">
+				<h3>Back End Web Development</h3>
+				<p>
+					With Python Programming Language and Django Framework, Javascript, and Databases.
+				</p>
+			<div>
+		</div>
+    </div>
+    
+{% endblock %}

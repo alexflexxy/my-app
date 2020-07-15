@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} 
+Mobile Apps
+{% endblock %}
+
+{% block body %} 
+
+<div id="middleContainer">
+	<h1>Mobile Apps Development.</h1>
+	<img src="{% static 'my_app/img/training-3.png' %} " alt="training3">
+	<div id="skills.">
+		<h1>what you'll learn...</h1>
+		<div class="skillRow">
+			<img class="picture4" src="{% static 'my_app/img/android.jpg' %}" alt="">
+			<h3>Android Mobile App Development</h3>
+			<p>
+				XML, SQLite, Java, Version Control (GIT), and Android Studio.
+			</p>		
+		</div>
+	</div>
+</div>
+    
+{% endblock %}
